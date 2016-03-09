@@ -6,6 +6,12 @@ namespace STOMP.Frames
     {
         public StompNAckFrame()
         {
+
+        }
+
+        public StompNAckFrame(StompMessageFrame Frame)
+        {
+            Id = Frame.Ack;
         }
 
     }

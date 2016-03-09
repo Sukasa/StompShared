@@ -28,5 +28,10 @@
         {
 
         }
+
+        public StompAckFrame(StompMessageFrame Frame)
+        {
+            _Id = Frame.Ack;
+        }
     }
 }
