@@ -10,9 +10,6 @@ namespace STOMP
     /// </typeparam>
     public class StompRingBuffer<T>
     {
-
-        // TODO Test + probably fix seeking
-
         private T[] _Buffer;
         private int _WritePtr;
         private int _ReadPtr;
